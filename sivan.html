@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Calculation1</title>
+    </head>
+    <body>
+        <center>
+            <h1>KANISHKA B</h1>
+            <h1>(26010203)</h1>
+        
+        <form method="POST">
+            {%csrf_token%}
+            <label>Initial_Customer</label>
+            <input type="number" name="initial_Customer" value="{{ initial }}" required> <br><br>
+            <label>Present_Customer</label>
+            <input type="number" name="present_Customer" value="{{ present }}" required> <br><br>
+            <h2>Calculate Churn Rate</h2>
+            <input type="submit" value="Calculate" >
+            <input type="text" value="{% if result is not None %}{{ result }}%{% endif %}" readonly>
+            <input type="reset" value="Clear All">
+
+
+
+        </form> 
+        {% if result is not None %}
+            <h2>Churn Rate: {{ result }}%</h2>
+        {% endif %}
+        </center>
+    </body>
+</html>
