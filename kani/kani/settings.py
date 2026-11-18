@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles','mysivan'
+    'django.contrib.staticfiles','slotapp'
 ]
 
 MIDDLEWARE = [
@@ -115,7 +115,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS=[os.path.join(BASE_DIR,'mysivan/static')]
+STATICFILES_DIRS=[os.path.join(BASE_DIR,'slotapp/static')]
 
 # Email
 # https://docs.djangoproject.com/en/6.1/topics/email/#topic-email-configuration
