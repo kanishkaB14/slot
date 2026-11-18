@@ -1,10 +1,7 @@
 # Ex04 Time Table
-<<<<<<< HEAD
 ## Date:17/11/2026
 =======
 ## Date: 17/11/2026
->>>>>>> 2830d642f8ee8fa463b2cd42520a6835595d6728
-
 ## AIM
 To write a html webpage page to display your slot timetable.
 
@@ -137,11 +134,16 @@ Execute the program using runserver command.
 			<td>19EEE305 </td>
 			<td> Basic Electrical, Electronics and Measurement Engineering(BEEE)</td>
 		</tr>
-
 ```
 
 ## OUTPUT
 ![alt text](<Screenshot 2026-11-17 110200.png>)
+=======
+```
+
+## OUTPUT
+<img width="1917" height="1075" alt="Screenshot 2026-11-17 110200" src="https://github.com/user-attachments/assets/1091c277-dfa4-40c8-bc23-36bb42bd93d7" />
+>>>>>>> 82f4700b6c068d260a5040b32d16cb33a4638ad4
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
