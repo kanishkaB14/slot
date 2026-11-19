@@ -134,6 +134,10 @@ Execute the program using runserver command.
 			<td>19EEE305 </td>
 			<td> Basic Electrical, Electronics and Measurement Engineering(BEEE)</td>
 		</tr>
+	</tabel>
+
+	</body>
+		</html>
 ```
 
 ## OUTPUT
